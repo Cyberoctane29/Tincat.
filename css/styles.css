@@ -1,0 +1,288 @@
+/* 1st page */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* navbar with page main title and navbar*/
+/* container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.purple {
+  background-color: #916C98;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* title-first page with mobile phone mockup and title */
+.row {
+  padding-top: 65px;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* titlesection */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: center;
+}
+
+/* titleimage */
+.op {
+  width: 20%;
+  margin: 1% 8%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/* Features */
+#features {
+  padding: 10% 13% 10% 10%;
+  position: relative;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.featurebox {
+  padding: 6%;
+}
+
+lord-icon {
+  margin-bottom: 6%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #1d1716;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.bn {
+  color: #6A5897;
+  padding-left: 2%
+}
+
+/* Testimonial */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cat {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+em {
+  color: white;
+  font-size: 1rem;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price {
+  padding: 4% 2%;
+}
+
+.pricetext {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width:400px) {
+
+  .kl {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 30px;
+  }
+
+  .downloadbutton {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #titlea {
+    text-align: center;
+  }
+
+  .op {
+    position: static;
+    width: 80%;
+    margin-top: 40px;
+    transform: rotate(0);
+  }
+
+  #title .row {
+    text-align: center;
+  }
+}
+
+.last-text {
+  font-size: 2.5rem;
+  padding: 8% 15% 1% 15%;
+  white-space: initial;
+  line-height: 1.5;
+}
+
+.nb {
+  color: #916C98;
+  font-size: 30px;
+  margin: 1%;
+  padding-bottom: 20px;
+}
+
+.nb:hover {
+  color: #6e386e;
+}
+
+/* headings */
+.mainheading {
+  padding-top: 40px;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #1d1716;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1d1716;
+  font-weight: 900;
+}
+
+.head {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.txt {
+  margin-top: 4%;
+}
+
+/* button */
+/* downloadbutton */
+#title .downloadbutton {
+  margin: 10% 3% 5% 0;
+}
+
+.button-50 {
+  appearance: button;
+  background-color: #513252;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #CBA0AE 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20% 5% 10% 0%;
+  overflow: visible;
+  padding: 14px 30px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #C9BBCF 2px 2px 0 0, #1d1716 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+#footer{
+  text-align: center;
+  margin-right: 2%;
+}
+.ko {
+  background-color: #644866;
+}
+
+#cta .hj {
+  text-align: center;
+  margin-top: 6%;
+  margin-left: -3%;
+  margin-right: 2%;
+}
+
+#cta .hj1 {
+  text-align: center;
+  margin-top: 6%;
+  margin-left: -2%;
+}
+
+.button-50:hover {
+  background-color: #4b1f54;
+}
+
+#title .row {
+  text-align: left;
+}
+#footer .cr{
+  font-size: 75%;
+}
